@@ -1,0 +1,29 @@
+app-todo-footer{
+    position: fixed;
+    height: 60px;
+    width:100%;
+    bottom: 0;
+    background-color: gray;
+    text-align: center;
+}
+.header{
+    background-color: gray;
+    width:100%;
+    text-align: center;
+}
+hr{
+    width: 80%;
+    height: 3px;
+    background-color: darksalmon;
+    border: 0;
+    margin-bottom: 50px;
+}
+
+app-todo-list{
+    width:100%;
+    position: absolute;
+    bottom:60px;
+    top:200px;
+    text-align: center;
+    list-style: none;
+}
