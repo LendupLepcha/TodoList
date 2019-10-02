@@ -1,2 +1,7 @@
-<li *ngFor="let i of list">{{i}}</li>
+<div class="li" *ngFor="let i of list;let deli=index" >
+    <div class="LI">{{i}} <div class="cut" (click)="deleteItem(deli)">&times;</div>
+    </div>
+</div>
+
+
 

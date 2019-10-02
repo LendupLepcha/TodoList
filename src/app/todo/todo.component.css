@@ -25,5 +25,5 @@ app-todo-list{
     bottom:60px;
     top:200px;
     text-align: center;
-    list-style: none;
+    /* list-style: none; */
 }

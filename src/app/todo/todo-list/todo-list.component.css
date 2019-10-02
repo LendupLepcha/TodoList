@@ -1,8 +1,29 @@
-li{
+.li{
     opacity: 0.7;
     font-size: 50px;
+    background-color: bisque;
+    
     
 }
-li:hover{
+.li:hover{
     opacity: 1;
+    cursor: pointer;
 }
+.li .cut{
+    
+    font-size: 30px;
+}
+.LI{
+    display:flex;
+
+    align-content: space-between;
+    text-align: center; 
+    justify-content: center;
+}
+.cut{
+    position: relative;
+    left:50px;
+}
+/* li{
+    text-decoration:line-through;
+} */

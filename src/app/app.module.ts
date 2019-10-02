@@ -10,6 +10,7 @@ import { TodoListComponent } from './todo/todo-list/todo-list.component';
 import { TodoFooterComponent } from './todo/todo-footer/todo-footer.component';
 import { FormsModule } from '@angular/forms';
 import { todoService } from './todo-services';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { todoService } from './todo-services';
   imports: [
     FormsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [todoService],
   bootstrap: [AppComponent]
